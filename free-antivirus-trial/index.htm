@@ -1,0 +1,375 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="cs-cz"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="cs-cz"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="cs-cz"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="cs-cz"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="application-name" content="VIPRE Antivirus">
+	<meta name="msapplication-starturl" content="https://www.vipreantivirus.cz/">
+	<meta name='Keywords' content="Antivirus Software, Virus Protection" />
+	<meta name='Description' content="VIPRE Antivirus is the virus protection that doesn't slow down your PC. Defend your data with the leading antivirus software and Internet security today." />
+	<title >Antivir a ochrana před viry | VIPRE Antivirus</title>
+
+	<link rel="icon" href="https://www.vipreantivirus.cz/favicon.ico" sizes="16x16" type="image/png">
+
+	<link href="https://www.vipreantivirus.cz/assets/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="https://www.vipreantivirus.cz/assets/welcome_home.css" media="screen" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://www.vipreantivirus.cz/assets/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8"/>
+	
+	<link href="https://www.vipreantivirus.cz/assets/jquery.carousel.homepage.css" media="screen" rel="stylesheet" type="text/css" />
+	
+  
+	
+	<!-- GA tracking code -->
+	
+	<script type="text/javascript">
+	var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-360513-6']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();
+	</script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+		
+	<script src="https://www.vipreantivirus.cz/js/jquery.betterTooltip.js"></script>
+	<script src="https://www.vipreantivirus.cz/js/jquery.easing.1.3.js"></script>
+	<script src="https://www.vipreantivirus.cz/js/slides.min.jquery.js"></script>
+	<script src="https://www.vipreantivirus.cz/js/jsAccordion.js"></script>
+	<script src="https://www.vipreantivirus.cz/js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="https://www.vipreantivirus.cz/js/jquery.localscroll-1.2.5.js"></script>
+	<script src="https://www.vipreantivirus.cz/js/jquery.serialScroll-1.2.2-min.js"></script>
+	<script src="https://www.vipreantivirus.cz/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script src="https://www.vipreantivirus.cz/js/jquery.coda-slider.js"></script>-->
+	
+	<script>
+		function popitup(url) {
+			newwindow=window.open(url,'name','height=500,width=800,scrollbars=1');
+			if (window.focus) {newwindow.focus()}
+			return false;
+		}
+		
+		$(document).ready(function(){
+			$("a[rel^='prettyPhoto']").prettyPhoto({theme : 'facebook'});
+			
+			$('.tTip').betterTooltip({speed: 150, delay: 300});
+			
+			$("a#EULA").click(function(e){
+				e.preventDefault();
+				popitup('http://www.vipreantivirus.com/docs/eula.htm');
+			});
+			
+			$(window).scroll(function(){
+				if($(window).scrollTop() >= 9){
+					$('#headerWrapper').addClass('bShadow');
+				}else{
+					$('#headerWrapper').removeClass('bShadow');
+				}
+			});
+			
+			$('.products-nav').click(function(){
+				if($('#dd-nav').css('display') == 'none'){
+					$('#dd-nav').css({'display' : 'block', 'z-index': '10'});
+				} else {
+					$('#dd-nav').css({'display' : 'none', 'z-index': '1'});
+				}
+			});
+			
+			$('.products-nav').mouseleave(function(){
+				$('#dd-nav').css({'display' : 'none', 'z-index': '1'});
+			}).mouseenter(function(){
+				$('#dd-nav').css({'display' : 'block', 'z-index': '10'});
+			});
+		});
+	</script>
+	
+</head>
+<body id="welcome" class="antivirus-trial"> 
+
+	<div class="page">
+		<div class="page-container">
+			<div id="header" class="hero">
+				<div id="headerWrapper">
+					<div id="headerColorBar">&nbsp;</div>
+					<!-- links to local VIPRE sites go here -->
+					<div id="headerWrapperContainer">
+						<ul class="top-menu">
+							<li><a href="http://www.vipreantivirus.com/">English</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+							<li><a href="https://www.vipreantivirus.cz/">Česky</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+							<li><a href="http://www.vipreantivirus.sk/">Slovensky</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+							<li><a href="http://www.vipreantivirus.com/DE/">Deutsch</a>&nbsp;&nbsp;|&nbsp;&nbsp;</li>
+							<li><a href="http://www.vipreantivirus.com/IT/">Italiano</a></li>
+						</ul>
+					<!-- links end -->
+					
+						<div class="holder">
+							<!-- logo -->
+							<strong class="logo"><a href="https://www.vipreantivirus.cz/">/</a></strong>
+							<!-- nav-holder -->
+							<div class="nav-holder">
+								<!-- navigation -->
+								<ul id="navigation">
+									<li class="why-us-nav"><a href="https://www.vipreantivirus.cz/">Domů</a></li>
+									<li class="products-nav">Produkty
+										<ul id="dd-nav">
+											<li><a href="https://www.vipreantivirus.cz/VIPRE-internet-security/">VIPRE Internet Security</a></li>
+											<li><a href="https://www.vipreantivirus.cz/VIPRE-antivirus/">VIPRE Antivirus</a></li>
+											<li><a href="http://www.vipremobile.com/">VIPRE Mobile Security</a></li>
+											<li><a href="http://www.gfi.cz/business-antivirus-software/" target="_blank">VIPRE Business</a></li>
+										</ul>
+									</li>
+									<li class="why-vipre-nav"><a href="https://www.vipreantivirus.cz/best-antivirus/">Proč VIPRE</a></li>
+									<li class="antivirus-trial-nav"><a href="https://www.vipreantivirus.cz/free-antivirus-trial/">Download</a></li>
+									<li class="support-nav"><a href="https://www.vipreantivirus.cz/support/">Podpora</a></li>
+								</ul>
+								<!-- btn-download -->
+								
+									<a href="https://www.vipreantivirus.cz/buy/" class="btn-download orange">Koupit</a>
+								
+							</div>
+							<div class="container" id="flash-bucket">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--[if IE 7]><br><![endif]-->
+
+
+<br><br><br>
+			
+<table border='0' width='1024' cellpadding='0' cellspacing='0' align='center' style="margin-top:88px;">
+	<tr>
+		<td align="center">
+			<h3 style="color:#21629c;font-size:36px;padding-bottom:10px;font-weight:normal;">Stáhněte si zdarma trial VIPRE</h3>
+			<br>
+			<p style="font-size: 14px;">Připojte se k&nbsp;milionům spokojených uživatelů chránících svůj počítač pomocí VIPRE:<br>stáhněte&nbsp;si zdarma antivir ještě dnes. Chraňte&nbsp;se před&nbsp;online hrozbami a&nbsp;pomozte zvýšit výkon vašeho počítače<br>s&nbsp;bezplatnou 30denní verzí antiviru VIPRE Antivirus&nbsp;2015 nebo&nbsp;VIPRE Internet Security&nbsp;2015.</p>
+		</td>
+	</tr>
+	<tr>
+		<td id="td">
+			<br>
+			<table border='0' cellpadding='0' cellspacing='0' id="divChartTableNew">
+				<tr id="divChartHeaderTop">
+					<td colspan="3" style="padding: 0;">&nbsp;</td>
+				</tr>
+				<tr id="divChartHeaderPrice">
+					<td colspan="3" style="padding: 0;">&nbsp;</td>
+				</tr>
+				<tr id="divChartHeaderCTA">
+					<td style="padding-left: 20px; font-size: 18px;" >Jakou úroveň ochrany<br>vyžadujete pro&nbsp;vaše&nbsp;PC?</td>
+					<td class="AVCTA"><a href="https://www.vipreantivirus.cz/VIPRE-antivirus/download/" onClick="_gaq.push(['_trackEvent', 'Download Button', 'VPC', '/Antivirus-Trial/index.cfm']);" class="btn green chart" style="width:150px; margin-left:+20px;">Download</a></td>
+					<td class="VISCTA"><a href="https://www.vipreantivirus.cz/VIPRE-internet-security/download/" onClick="_gaq.push(['_trackEvent', 'Download Button', 'VIS', '/Antivirus-Trial/index.cfm']);" class="btn green chart" style="width:150px;margin-left:-10px;margin-right:20px;">Download</a></td>
+				</tr>
+				<!--<tr id="divChartHeaderBottom">
+					<td colspan="3" style="padding: 0;">&nbsp;</td>
+				</tr>-->
+				<tr><td style="padding: 0;">&nbsp;</td></tr>
+				<tr><td style="padding: 0;">&nbsp;</td></tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew">
+						<span class="NewFeatureText">NOVINKA</span> <span class="tTip" title="Přepracované uživatelské rozhraní VIPRE je intuitivní a uživateli usnadňuje orientaci i používání. Naleznete zde snadný výběr vlastních nebo plánovaných kontrol, jednoduché ověření dostupnosti nových virových bází, úpravu možností pro aplikování patche a další.">Uživatelské rozhraní</span> &trade;
+					</td>
+					<td class="divChartRowAVNew" style="padding-left:50px;"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew">
+						<span class="NewFeatureText">JEŠTĚ LEPŠÍ</span> <span class="tTip" title="Uživateli zabrání v kliknutí a&nbsp;sdílení nebezpečných odkazů na Facebooku.">Social Watch</span> &trade;
+					</td>
+					<td class="divChartRowAVNew" style="padding-left:50px;"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew">
+						<span class="NewFeatureText">JEŠTĚ LEPŠÍ</span> <span class="tTip" title="Rozpoznává nebezpečné odkazy ve výsledcích hledání oblíbených vyhledávačů.">Search Guard</span> &trade;
+					</td>
+					<td class="divChartRowAVNew" style="padding-left:50px;"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>				
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew">
+						VIPRE<sup>&reg;</sup> <span class="tTip" title="Zajišťuje hladkou instalaci bez potíží. Odstraňuje možné konflikty s dalším software.">Easy Install</span>&trade;
+					</td>
+					<td class="divChartRowAVNew" style="padding-left:50px;"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew">Certifikovaná <span class="tTip" title="Kvalita detekce a&nbsp;odstranění virů a&nbsp;dalšího škodlivého software byla ověřena ve Virus Bulletin, ICSA Labs,<br>AV-Comparatives,<br>AV-Test.org, West Coast Labs a&nbsp;dalších předních laboratořích zaměřených na&nbsp;testování antivirů.">antivirová</span> ochrana</td>
+					<td class="divChartRowAVNew" style="padding-left:50px;"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew">Ochrana před <span class="tTip" title="Detekuje a odstraňuje sledovací software (spyware; software, který o&nbsp;vás získává informace bez&nbsp;vašeho vědomí) instalovaný na vašem počítači.">spyware</span></td>
+					<td class="divChartRowAVNew" style="padding-left:50px;"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew"><span class="tTip" title="Prostřednictvím kombinace pokročilých antivirových technologií zajišťuje komplexní zabezpečení, které nezpomalí vaše PC.">Nízký dopad na výkon</span></td>
+					<td class="divChartRowAVNew" style="padding-left:50px;"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew"><span class="tTip" title="Viry, spyware, rootkity, boty, trojany a další typy malware detekuje a blokuje ještě předtím, než mohou napadnout vaše PC.">Active Protection</span>&trade; v reálném čase</td>
+					<td class="divChartRowAVNew" style="padding-left:50px;"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="padding-top:3px;height:19px;" alt="Obsahuje"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="padding-top:3px;height:19px;"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew">Ochrana <span class="tTip" title="Chrání před viry ukrytými v&nbsp;přílohách e-mailů a zprávách programů pro Instant messaging.">e-mailu &amp; instant messagingu</span></td>
+					<td class="divChartRowAVNew" style="padding-left:50px;"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew"><span class="tTip" title="Soubory na USB paměti a&nbsp;dalších vyměnitelných zařízeních skenuje automaticky ihned po jejich připojení k PC.">Kontrola vyměnitelných médií</span></td>
+					<td class="divChartRowAVNew" style="padding-left:50px;"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew">
+						<span class="NewFeatureText">JEŠTĚ LEPŠÍ</span> <span class="tTip" title="Automaticky opravuje nejčastější příčinu napadení a&nbsp;nákazy PC – neaktualizovaný software.">Auto Patch</span>&trade;
+					</td>
+					<td class="divChartRowAVNew"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew">
+						<span class="NewFeatureText">JEŠTĚ LEPŠÍ</span> Dvoucestný <span class="tTip" title="Rychlá a snadná ochrana před příchozím a odchozím internetovým provozem. Pokročilí uživatelé mají možnost úpravy nastavení.">firewall</span>
+					</td>
+					<td class="divChartRowAVNew"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew">Ochrana před <span class="tTip" title="Zabraňuje neoprávněným změnám v programech.">průniky</span></td>
+					<td class="divChartRowAVNew"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew"><span class="tTip" title="Filtruje nevyžádané e-maily a&nbsp;chrání před spamem, phishingem a nebezpečnými odkazy.">Antispam</span></td>
+					<td class="divChartRowAVNew"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr class="divChartRowNew">
+					<td class="divChartRowFeatNew">Blokování <span class="tTip" title="Zabrání vám v nechtěném vstupu na nebezpečné internetové stránky, kde hrozí riziko napadení vašeho PC.">nebezpečných stránek</span></td>
+					<td class="divChartRowAVNew"></td>
+					<td class="divChartRowISNew"><img src="https://www.vipreantivirus.cz/img2012/tick.png" height="19" style="height:19px;" alt="Obsahuje"></td>
+				</tr>
+				<tr class="divChartRowSep">
+					<td colspan="3">&nbsp;</td>
+				</tr>
+				<tr style="height:10px;">
+					<td></td>
+					<td id="divChartVAVBtn" style="padding-left:50px;"><a href="https://www.vipreantivirus.cz/buy/" style="text-decoration:underline;">Koupit</a><br></td>
+					<td id="divChartVISBtn"><a href="https://www.vipreantivirus.cz/buy/" style="text-decoration:underline;">Koupit</a><br></td>
+				</tr>
+			</table>
+			<br>
+		</td>
+	</tr>
+</table>
+<br><br>
+</div>
+<div id="footer">
+	<div class="container" style="width:100%;text-align:center;">
+		<div class="row" style="display:inline-block;width:1090px;padding-left:196px;">
+			<div class="span2" style="width:100px;text-align:left">
+				<h4>O VIPRE</h4>
+				<ul class="unstyled">
+					<li><a href="https://www.vipreantivirus.cz/about-vipre/" target="_blank">O VIPRE</a></li>
+					<li><a href="http://www.threattracksecurity.com/careers.aspx" target="_blank">Kariéra</a></li>
+				</ul>
+			</div>
+			<div class="span2" style="width:150px;text-align:left">
+				<h4>Řešení VIPRE</h4>
+				<ul class="unstyled">
+					<li><a href="https://www.vipreantivirus.cz/VIPRE-antivirus/">VIPRE Antivirus 2015</a></li>
+					<li><a href="https://www.vipreantivirus.cz/VIPRE-internet-security/" style="white-space: nowrap;">VIPRE Internet Security 2015</a></li>
+					<li><a href="http://www.vipreantivirus.com/VIPRE-mobile-security/">VIPRE Mobile Security</a></li>
+					<li><a href="http://www.gfi.cz/business-antivirus-software/" target="_blank">VIPRE Business</a></li>
+					<!-- <li></li> -->
+				</ul>
+			</div>
+			<div class="span2" style="width:150px;text-align:left">
+				<h4>Bezpečnostní nástroje &amp; další</h4>
+				<ul class="unstyled">
+					<li><a href="http://www.vipreantivirus.com/upgrade/">Upgrade</a></li>
+					<li><a href="http://www.vipreantivirus.com/live/">VIPRE Rescue</a></li>
+				</ul>
+			</div>
+			<div class="span2" style="width:100px;text-align:left">
+				<h4>Podpora</h4>
+				<ul class="unstyled">
+					<li><a href="http://kb.threattracksecurity.com/" target="_blank">Podpora VIPRE</a></li>
+					<li><a href="http://www.gfi.cz/support/" target="_blank">Obecná podpora</a></li>
+					<li><a href="http://www.vipreantivirus.com/EULA/" id="EULA">EULA</a></li>
+					<li><a href="http://kb.threattracksecurity.com/articles/SkyNet_Article/How-to-Uninstall-VIPRE-Antivirus-and-VIPRE-Internet-Security/" target="_blank">Návod na&nbsp;odinstalaci</a></li>
+				</ul>
+			</div>
+			<div class="span2" style="width:110px;text-align:left">
+				<h4>Partnerství</h4>
+				<ul class="unstyled">
+					<li><a href="http://www.gfi.cz/partners/" target="_blank">Partneři</a></li>
+				</ul>
+			</div>
+			<div class="span4" style="text-align:left">
+				<h4>Zůstaňte v obraze</h4>
+				<ul class="unstyled connect-list">
+					<li><a href="http://www.facebook.com/GFIVIPREAntivirus" class="facebook" target="_blank">Lajkněte nás na Facebooku</a></li>
+					<li><a href="http://twitter.com/vipresecurity" class="twitter" target="_blank">Sledujte nás na Twitteru</a></li>
+					<li><a href="http://vimeo.com/gfisoftware" class="vimeo" target="_blank">Sledujte nás na Vimeo</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- footer-row -->
+		<div class="footer-row">
+			<p>&copy; Copyright 2017 PB Com, spol. s r.o.<!--, Zemědělská 898/3, 500 03 Hradec Králové, ČR --> | <a href="/provozovatel/">Údaje o společnosti</a></p><br>
+			<!--<a href="http://www.gfi.com/pages/privacy.htm" target="_blank">Soukromí</a> | <a href="http://www.gfi.com/pages/website-terms.htm">Terms</a> | <a href="http://www.gfi.com/pages/privacy.htm" target="_blank">Cookies</a> | <a href="http://www.gfi.com/pages/copyright-notice.htm">Copyright</a>  -->
+		</div>
+	</div>
+<!-- two divs added by Jiri-->
+</div>
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1882 @@
+/* general settings */
+/* line 50, ../../app/assets/stylesheets/welcome_home.css.scss */
+body#welcome {
+  color: #666;
+  font: 14px Arial, Helvetica, sans-serif;
+  background: #0072bc;
+  min-width: 960px;
+}
+
+/* line 56, ../../app/assets/stylesheets/welcome_home.css.scss */
+* + html body#welcome {
+  width: expression(document.documentElement.clientWidth < 960 ? "960px" : "auto");
+}
+
+html{overflow-y:scroll;}
+
+/* line 59, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome {
+  /* page */
+  /* page-container */
+  /* header image */
+  /* header */
+  /* top-menu */
+  /* logo */
+  /* nav-holder */
+  /* navigation */
+  /* btn-download */
+  /* promo-area */
+  /* main */
+  /* heading */
+  /* promo-block */
+  /* content-row */
+  /* info-row */
+  /* footer */
+  /* connect-list */
+  /* footer-row */
+  /* page style02 */
+  /* main-holder */
+  /* login-block */
+  /* login-form */
+  /* Flashes */
+}
+/* line 61, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome ul li, #welcome ol li {
+  margin-left: 0px;
+}
+/* line 65, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome a {
+  color: #1d7dbb;
+  text-decoration: none;
+}
+/* line 68, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome a:hover {
+  text-decoration: underline;
+  color: #1d7dbb;
+}
+/* line 74, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .page {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+/* line 81, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .page-container {
+  overflow: hidden;
+  width: 100%;
+  background: #fbfbfb;
+}
+/* line 88, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .header-img {
+  /*background: url("/assets/img01.jpg") no-repeat top center transparent;*/
+  width: 1000px;
+  height: 350px;
+  margin: 0 auto;
+  margin-bottom: -350px;
+}
+/* line 88, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .header-img1 {
+  /*background: url("/assets/desk.png") no-repeat top center transparent;*/
+  width: 100%;
+  height: 540px;
+  margin-bottom: -540px;
+}
+/* line 97, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #header {
+  position: relative;
+  z-index: 9999;
+}
+/* line 98, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #header.hero {
+  min-height: 540px;
+}
+/* line 106, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .top-menu {
+  margin: 0;
+  padding: 6px 4px 7px 0;
+  list-style: none;
+  overflow: hidden;
+  height: 1%;
+  text-align: right;
+  color: #666;
+  font-size: 11px;
+  line-height: 14px;
+  width:100%;
+  *margin-left: 810px;
+}
+/* line 116, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .top-menu li {
+  display: inline-block;
+  vertical-align: top;
+  *float: left;
+}
+/* line 121, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome * + html .top-menu li {
+  display: inline;
+}
+/* line 125, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .top-menu a {
+  float: left;
+  color: #21629c;
+}
+/* line 129, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .top-menu .chat {
+  /*background: url(ico01.gif) no-repeat 0 3px;*/
+}
+/* line 131, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .top-menu .premium {
+  /*background: url(ico02.gif) no-repeat 2px 2px;*/
+}
+/* line 133, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .top-menu .login {
+  /*background: url(ico03.gif) no-repeat 4px 1px;*/
+}
+/* line 135, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .top-menu .device {
+  /*background: url(ico-device.png) no-repeat 3px 1px;*/
+}
+/* line 138, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #header .holder {
+  width: 100%;
+  padding: 0 0 1px;
+}
+/* line 141, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #header .holder:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+/* line 148, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .logo {
+  float: left;
+  overflow: hidden;
+  text-indent: -9999px;
+  background: url(logo.png) no-repeat;
+  width: 258px;
+  height: 66px;
+  margin: -10px 0 0 -15px;
+}
+/* line 156, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .logo a {
+  display: block;
+  height: 100%;
+}
+/* line 162, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .nav-holder {
+  float: right;
+  font-size: 14px;
+  line-height: 40px;
+  font-weight: bold;
+  margin: 0 0px 0 0;
+  border: 1px solid #ededed;
+  border-width: 1px 1px 0;
+  border-color: #ededed #c8c8c8 #909090;
+  background: #f7f7f7;
+  background: -moz-linear-gradient(top, #f7f7f7 0%, #e1e1e1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #e1e1e1));
+  background: -webkit-linear-gradient(top, #f7f7f7 0%, #e1e1e1 100%);
+  background: -o-linear-gradient(top, #f7f7f7 0%, #e1e1e1 100%);
+  background: -ms-linear-gradient(top, #f7f7f7 0%, #e1e1e1 100%);
+  background: linear-gradient(top, #f7f7f7 0%, #e1e1e1 100%);
+  -pie-background: linear-gradient(#f7f7f7, #e1e1e1);
+  filter: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 2px 1px rgba(0, 0, 0, 0.2), 1px 0 0 rgba(0, 0, 0, 0.2), -1px 0 0 rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 2px 1px rgba(0, 0, 0, 0.2), 1px 0 0 rgba(0, 0, 0, 0.2), -1px 0 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 2px 1px rgba(0, 0, 0, 0.2), 1px 0 0 rgba(0, 0, 0, 0.2), -1px 0 0 rgba(0, 0, 0, 0.05);
+  position: relative;  
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+/* line 190, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #navigation {
+  margin: 0;
+  padding: 0 15px 0 0px;
+  list-style: none;
+  float: left;
+}
+/* line 195, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #navigation li {
+  float: left;
+  padding: 0 20px 0 23px;
+}
+
+#welcome #navigation li:hover ul {
+  display: block;
+  z-index: 10;
+}
+
+body.products#welcome #header li.products-nav:hover ul{
+  left: 58px;
+}
+
+#welcome #navigation li ul {
+	position: absolute;
+	display: none;
+	left: 65px;
+	*top: 40px;
+	list-style: none;
+	width: 225px;
+	background: #f7f7f7;
+	background: -moz-linear-gradient(top, #f7f7f7 0%, #e1e1e1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #e1e1e1));
+	background: -webkit-linear-gradient(top, #f7f7f7 0%, #e1e1e1 100%);
+	background: -o-linear-gradient(top, #f7f7f7 0%, #e1e1e1 100%);
+	background: -ms-linear-gradient(top, #f7f7f7 0%, #e1e1e1 100%);
+	background: linear-gradient(top, #f7f7f7 0%, #e1e1e1 100%);
+}
+
+#welcome #navigation li ul li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	color: #1d7dbb;
+}
+
+/* line 198, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #navigation a {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+/* line 202, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #navigation a:hover {
+  color: #1d7dbb;
+}
+
+.products-nav{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	color: #1d7dbb;
+	cursor:pointer;
+}
+
+body.why-vipre#welcome #header li.why-vipre-nav, body.antivirus-trial#welcome #header li.antivirus-trial-nav, body.products#welcome #header li.products-nav, body.support#welcome #header li.support-nav {
+	background: #e1e1e1;
+	background: -moz-linear-gradient(top, #E1E1E1 0%, #F7F7F7 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#e1e1e1),color-stop(100%,#f7f7f7));
+	background: -webkit-linear-gradient(top, #E1E1E1 0%, #F7F7F7 100%);
+	background: -o-linear-gradient(top, #E1E1E1 0%, #F7F7F7 100%);
+	background: -ms-linear-gradient(top, #E1E1E1 0%, #F7F7F7 100%);
+	background: linear-gradient(top, #E1E1E1 0%, #F7F7F7 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e1e1',endColorstr='#f7f7f7',GradientType=0 );
+	background-position: initial initial;
+	background-repeat: initial initial;
+	border-left-color: #D3D3D3;
+	border-left-width: 1px;
+	border-right-color: #D3D3D3;
+	border-right-width: 1px;
+	border-style: solid solid none;
+	border-top-color: #D3D3D3;
+	border-top-width: 1px;
+	margin: -1px 0 0 -1px;
+}
+
+/* line 207, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .btn-download {
+  float: left;
+  position: relative;
+  color: #fff;
+  height: 41px;
+  padding: 0 26px;
+  margin: -1px -1px 0 0;
+  background: #ff9201;
+  background: -moz-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffb400), color-stop(28%, #ffa101), color-stop(79%, #ff7302), color-stop(90%, #ff6d02), color-stop(100%, #ff6d00));
+  background: -webkit-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -o-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -ms-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  -pie-background: linear-gradient(#ffb400, #ff6d00);
+  filter: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+/* line 27, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .btn-download.green {
+  background: #baf500;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #baf500 0%, #4a9333 97%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #baf500), color-stop(97%, #4a9333));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #baf500 0%, #4a9333 97%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #baf500 0%, #4a9333 97%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #baf500 0%, #4a9333 97%);
+  /* IE10+ */
+  background: linear-gradient(top, #baf500 0%, #4a9333 97%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#baf500', endColorstr='#4a9333',GradientType=0 );
+  /* IE6-9 */
+  text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.6);
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+/* line 37, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .btn-download.green:hover {
+  background: #a6d800;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a6d800 0%, #3a8e20 97%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a6d800), color-stop(97%, #3a8e20));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #a6d800 0%, #3a8e20 97%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #a6d800 0%, #3a8e20 97%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #a6d800 0%, #3a8e20 97%);
+  /* IE10+ */
+  background: linear-gradient(top, #a6d800 0%, #3a8e20 97%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6d800', endColorstr='#3a8e20',GradientType=0 );
+  /* IE6-9 */
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+/* line 230, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .btn-download:hover {
+  background: #ff6202;
+  background: -moz-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff8a00), color-stop(100%, #ff6202));
+  background: -webkit-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: -o-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: -ms-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  -pie-background: linear-gradient(#ff8a00, #ff6202);
+  text-decoration: none;
+  color: #fff;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+/* line 243, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-area {
+  color: #000;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 0px;
+  padding: 0 0 0 3px;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+  padding-top: 130px;
+}
+/* line 248, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-area h1 {
+  margin: 0 0 18px;
+  color: #004b8d;
+  font: 36px/48px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  line-height: 35px;
+}
+/* line 252, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-area ul {
+  margin-top: 0px;
+}
+/* line 254, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-area ul li {
+  font: 17px/27px Arial, Helvetica, sans-serif;
+  margin: 0px 0 4px;
+}
+/* line 255, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-area ul li:last-child {
+  margin-bottom: 18px;
+}
+/* line 262, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-area p {
+  font: 18px/27px Arial, Helvetica, sans-serif;
+  margin: 0 0 23px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75), 1px 0 1px rgba(0, 0, 0, 0.75), -1px 0 1px rgba(0, 0, 0, 0.75);
+}
+
+/* line 266, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-area .btn {
+  color: #fff;
+  font: 19px/41px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 0 28px;
+  height: 40px;
+  background: #ff9201;
+  background: -moz-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffb400), color-stop(28%, #ffa101), color-stop(79%, #ff7302), color-stop(90%, #ff6d02), color-stop(100%, #ff6d00));
+  background: -webkit-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -o-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -ms-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  -pie-background: linear-gradient(#A6E900, #279b00);
+  filter: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+/* line 4, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-area .btn.green {
+  background: #aded00;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aded00), color-stop(87%, #2fa000), color-stop(100%, #249900));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#A6E900, #279b00);
+  filter: none;
+  /* IE6-9 */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+/* line 14, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-area .btn.green:hover {
+  background: #99d000;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #99d000), color-stop(87%, #2a8c00), color-stop(100%, #1f8600));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#99D000, #258900);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+/* line 292, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row .btn, #welcome .promo-area .btn:hover, #welcome .content-row .btn:hover, #welcome .login-form .btn-form {
+  color: #fff;
+  font: 19px/41px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 0 28px;
+  height: 40px;
+  background: #ff9201;
+  background: -moz-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffb400), color-stop(28%, #ffa101), color-stop(79%, #ff7302), color-stop(90%, #ff6d02), color-stop(100%, #ff6d00));
+  background: -webkit-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -o-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -ms-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  filter: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+/* line 4, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row .btn.green, #welcome .promo-area .btn:hover.green, #welcome .content-row .btn:hover.green, #welcome .login-form .btn-form.green {
+  background: #aded00;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aded00), color-stop(87%, #2fa000), color-stop(100%, #249900));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#A6E900, #279b00);
+  filter: none;
+  /* IE6-9 */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+/* line 14, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row .btn.green:hover, #welcome .promo-area .btn:hover.green:hover, #welcome .content-row .btn:hover.green:hover, #welcome .login-form .btn-form.green:hover {
+  background: #99d000;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #99d000), color-stop(87%, #2a8c00), color-stop(100%, #1f8600));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#99D000, #258900);
+  filter: none;
+  /* IE6-9 */
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+/* line 316, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-area .btn:hover, #welcome .content-row .btn:hover, #welcome .login-form .btn-form:hover {
+  background: #ff6202;
+  text-decoration: none;
+  background: -moz-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff8a00), color-stop(100%, #ff6202));
+  background: -webkit-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: -o-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: -ms-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  -pie-background: linear-gradient(#ff8a00, #ff6202);
+  filter: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+/* line 326, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-area .btn {
+  margin: 0 3px;
+}
+/* line 331, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #main {
+  padding: 81px 0 0;
+  /*background: url(main.gif) no-repeat 50% 0;*/
+}
+/* line 334, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #main h2 {
+  margin: 0 0 41px;
+  text-align: center;
+  color: #004b8d;
+  font: bold 36px/38px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+/* line 339, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #main h3 {
+  margin: 0 0 11px;
+  color: #004b8d;
+  font: 25px/27px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+/* line 343, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #main p {
+  margin: 0 0 20px;
+  font: 14px/24px Arial, Helvetica, sans-serif;
+}
+/* line 349, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .heading {
+  padding: 0 0 25px;
+  margin-top: -40px;
+}
+/* line 354, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-block {
+  width: 100%;
+  min-height: 188px;
+  /*background: url(promo-block.gif) no-repeat;*/
+  line-height: 22px;
+}
+/* line 360, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #main .promo-block p {
+  line-height: 22px;
+  margin-bottom: 13px;
+}
+/* line 365, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-block .span3 {
+  width: 240px;
+  padding: 23px 30px 21px;
+  text-align: center;
+}
+/* line 369, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .promo-block img {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 15px;
+}
+/* line 376, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row {
+  margin: 0 -9999px 53px;
+  padding: 0 9999px;
+  background: #0072bc url(content-row-t.gif) repeat-x;
+  color: #fff;
+  font: italic 15px/21px Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+/* line 384, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #main .content-row p {
+  font: italic 15px/21px Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+/* line 389, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row .holder {
+  margin:0;
+  padding: 41px 9999px 34px;
+  overflow: hidden;
+}
+/* line 394, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  color: #99d6fe;
+  font: bold 12px/14px Arial, Helvetica, sans-serif;
+}
+/* line 402, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row ul li {
+  float: left;
+  background: url(sep02.gif) no-repeat 0 5px;
+  padding: 0 8px 0 9px;
+  margin: 0 9px 0 -9px;
+}
+/* line 407, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row ul a {
+  color: #99d6fe;
+}
+/* line 410, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .logo-hsn {
+  display: block;
+  margin: 4px 0 0 40px;
+}
+/* line 414, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .media-box {
+  /*background: url(media-box.png) no-repeat;*/
+  width: 139px;
+  height: 88px;
+  padding: 10px 11px 10px 10px;
+  margin: -7px 0 0 23px;
+}
+/* line 420, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .media-box img {
+  vertical-align: top;
+}
+/* line 423, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row02 {
+  margin-bottom: 90px;
+}
+/* line 427, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row .btn {
+  width: 280px;
+  padding: 0 10px;
+  margin: 5px 0 0;
+  text-align: center;
+}
+/* line 432, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row .btn:hover {
+  width: 280px;
+  padding: 0 10px;
+  margin: 5px 0 0;
+  text-align: center;
+}
+/* line 437, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row .frame {
+  padding: 55px 0px 35px 0px;
+}
+/* line 439, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row .title {
+  display: block;
+  color: #fff;
+  font: 25px/27px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  /*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 1px 0 1px rgba(0, 0, 0, 0.3), -1px 0 1px rgba(0, 0, 0, 0.3);*/
+}
+/* line 444, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-row .sub-title {
+  display: block;
+  font: 17px/28px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  /*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 1px 0 1px rgba(0, 0, 0, 0.3), -1px 0 1px rgba(0, 0, 0, 0.3);*/
+}
+/* line 449, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .btn {
+  color: #fff;
+  font: 19px/36px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  border: 1px solid #2178ae;
+  border-color: #2178ae #3188bb;
+  padding: 0 34px;
+  height: 34px;
+  background: #259fd9;
+  background: -moz-linear-gradient(top, #2bb1e0 0%, #1d8bd0 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2bb1e0), color-stop(100%, #1d8bd0));
+  background: -webkit-linear-gradient(top, #2bb1e0 0%, #1d8bd0 100%);
+  background: -o-linear-gradient(top, #2bb1e0 0%, #1d8bd0 100%);
+  background: -ms-linear-gradient(top, #2bb1e0 0%, #1d8bd0 100%);
+  background: linear-gradient(top, #2bb1e0 0%, #1d8bd0 100%);
+  -pie-background: linear-gradient(#2aafdf, #1D8BD0);
+  filter: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 0 #80d0ec;
+  -moz-box-shadow: inset 0 1px 0 #80d0ec;
+  box-shadow: inset 0 1px 0 #80d0ec;
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+/* line 473, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .btn:hover {
+  text-decoration: none;
+  color: #fff;
+  font: 19px/36px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  border: 1px solid #2178ae;
+  border-color: #2178ae #3188bb;
+  padding: 0 34px;
+  height: 34px;
+  background: #259fd9;
+  background: -moz-linear-gradient(top, #2bb1e0 0%, #1d8bd0 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2bb1e0), color-stop(100%, #1d8bd0));
+  background: -webkit-linear-gradient(top, #2bb1e0 0%, #1d8bd0 100%);
+  background: -o-linear-gradient(top, #2bb1e0 0%, #1d8bd0 100%);
+  background: -ms-linear-gradient(top, #2bb1e0 0%, #1d8bd0 100%);
+  background: linear-gradient(top, #2bb1e0 0%, #1d8bd0 100%);
+  filter: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 0 #80d0ec;
+  -moz-box-shadow: inset 0 1px 0 #80d0ec;
+  box-shadow: inset 0 1px 0 #80d0ec;
+  background: #0077c0;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0077c0), to(#1D8BD0));
+  background: -webkit-linear-gradient(#0077c0, #1D8BD0);
+  background: -moz-linear-gradient(#0077c0, #1D8BD0);
+  background: -ms-linear-gradient(#0077c0, #1D8BD0);
+  background: -o-linear-gradient(#0077c0, #1D8BD0);
+  background: linear-gradient(#0077c0, #1D8BD0);
+  -pie-background: linear-gradient(#0077c0, #1D8BD0);
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+
+#welcome .btn.green {
+  color: #fff;
+  font: 19px/36px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  border: 1px solid #99d000;
+  border-color: #99d000 #1f8600;
+  padding: 0 34px;
+  height: 34px;
+  background: #aded00;
+  background: -moz-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aded00), color-stop(87%, #2fa000), color-stop(100%, #249900));
+  background: -webkit-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  background: -o-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  background: -ms-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  background: linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  -pie-background: linear-gradient(#aded00, #249900);
+  filter: none;
+  text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.6);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 0 #99d000;
+  -moz-box-shadow: inset 0 1px 0 #99d000;
+  box-shadow: inset 0 1px 0 #99d000;
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+/* line 473, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .btn.green:hover {
+  text-decoration: none;
+  color: #fff;
+  font: 19px/36px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  border: 1px solid #99d000;
+  border-color: #99d000 #3188bb;
+  padding: 0 34px;
+  height: 34px;
+  background: #99d000;
+  background: -moz-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #99d000), color-stop(87%, #2a8c00), color-stop(100%, #1f8600));
+  background: -webkit-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  background: -o-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  background: -ms-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  background: linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  -pie-background: linear-gradient(#99d000, #1f8600);
+  filter: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 0 #99d000;
+  -moz-box-shadow: inset 0 1px 0 #99d000;
+  box-shadow: inset 0 1px 0 #99d000;
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+
+/* line 508, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .info-row {
+  width: 100%;
+  margin: 0 0 90px;
+}
+/* line 512, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .info-row02 {
+  margin-bottom: 10px;
+}
+/* line 515, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .info-row:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+/* line 520, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-image01 {
+  float: right;
+  width: 350px;
+  margin: -37px 58px 0 0;
+}
+/* line 525, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-image02 {
+  float: left;
+  width: 300px;
+  margin: -24px 0 0 50px;
+}
+/* line 530, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-image03 {
+  float: right;
+  margin: -45px -40px 0 0;
+  width: 500px;
+  max-width: 646px;
+}
+/* line 536, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .content-image04 {
+  float: left;
+  margin: -52px 0 24px -20px;
+  width: 450px;
+  max-width: 585px;
+}
+/* line 543, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .info-row h3{
+  font-size: 36px;
+  font-weight: normal;
+}
+/* line 546, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .info-row .span5 {
+  margin-right: -20px;
+}
+/* line 548, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .info-row .span6:first-child {
+  margin-left: 0;
+}
+/* line 550, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .info-row .text-area {
+  width: 400px;
+  padding: 0 20px 0 40px;
+}
+/* line 556, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #footer {
+  width: 100%;
+  overflow: hidden;
+  background: url(footer.gif) repeat-x;
+  background-color: #0072bc;
+  color: #fff;
+  font-size: 11px;
+  line-height: 14px;
+  padding: 34px 0;
+}
+/* line 564, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #footer a {
+  color: #a4d2f0;
+}
+/* line 566, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #footer h4 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 9px;
+}
+/* line 571, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #footer ul li {
+  overflow: hidden;
+  vertical-align: top;
+  padding: 0 0 7px;
+}
+/* line 575, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #footer .row {
+  padding-bottom: 24px;
+}
+/* line 577, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #footer p {
+  font: 11px/14px Arial, Helvetica, sans-serif !important;
+  margin: 0;
+}
+/* line 583, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .connect-list {
+  margin-top: -2px;
+}
+/* line 585, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .connect-list a {
+  float: left;
+  padding: 2px 0 0 27px;
+}
+/* line 588, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .connect-list .facebook {
+  background: url(ico-facebook.png) no-repeat;
+}
+/* line 590, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .connect-list .twitter {
+  background: url(ico-twitter.png) no-repeat;
+}
+#welcome .connect-list .vimeo {
+  background: url(Vimeo_Footer_icon.png) no-repeat;
+}
+/* line 595, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .footer-row {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  background: url(footer-row.gif) no-repeat 50% 0;
+  padding: 14px 0 21px;
+}
+/* line 601, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .footer-row p {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 605, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome * + html .footer-row p {
+  display: inline;
+}
+/* line 608, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #footer .footer-row ul {
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 613, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome * + html #footer .footer-row ul {
+  display: inline;
+}
+/* line 616, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #footer .footer-row ul li {
+  float: left;
+  padding: 0 7px 0 8px;
+  line-height: 14px;
+  background: url(sep01.gif) no-repeat 0 3px;
+}
+/* line 621, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #footer .footer-row ul li:first-child {
+  background: none;
+  padding-left: 3px;
+}
+/* line 628, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome.page-style02 #header {
+  min-height: 106px;
+}
+/* line 630, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome.page-style02 #header .frame {
+  background: #fbffff url(header-style02.gif) repeat-x;
+  margin: 0 -9999px;
+  padding: 0 9999px;
+  min-height: 106px;
+}
+/* line 635, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome.page-style02 #header .holder {
+  padding: 0;
+}
+/* line 637, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome.page-style02 #main {
+  padding: 0;
+  color: #fff;
+}
+/* line 640, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome.page-style02 .main-holder {
+  overflow: hidden;
+  height: 1%;
+  position: relative;
+  margin: 0 -9999px;
+  padding: 0 9999px;
+  background: #0072bc url(footer.gif) repeat-x;
+}
+/* line 647, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome.page-style02 #footer {
+  padding-top: 47px;
+  background: url(footer-row.gif) no-repeat 50% 0;
+}
+/* line 650, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome.page-style02 #main a {
+  color: #a4d2f0;
+}
+/* line 657, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-block {
+  width: 940px;
+  padding: 15px 71px 39px;
+  margin: 0 -71px;
+  /*background: url(login-block.jpg) no-repeat 0 15px;*/
+  min-height: 568px;
+}
+/* line 666, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form {
+  float: right;
+  width: 470px;
+  padding: 112px 0 0;
+  margin: 0 -8px 0 0;
+}
+/* line 671, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form h1 {
+  color: #fff;
+  margin: 0 0 33px;
+  font: bold 48px/50px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+/* line 675, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form .text-row {
+  overflow: hidden;
+  width: 100%;
+  padding: 0 0 6px;
+}
+/* line 679, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form label {
+  float: left;
+  margin: 0;
+  font: 18px/20px Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 1px 0 1px rgba(0, 0, 0, 0.3), -1px 0 1px rgba(0, 0, 0, 0.3);
+}
+/* line 685, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form .text-row a {
+  float: right;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 689, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form .field-row {
+  margin: 0 -2px;
+  width: 472px;
+  padding: 0 0 18px;
+}
+/* line 693, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form .field-row:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+/* line 697, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form .txt {
+  float: left;
+  width: 438px;
+  height: 22px;
+  padding: 15px 16px;
+  margin: 0;
+  font: 18px Arial, Helvetica, sans-serif;
+  background: #fff;
+  border: 2px solid #004b8d;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  position: relative;
+}
+/* line 711, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form .txt:focus {
+  border-color: #ff6e02;
+}
+/* line 715, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form .focus .txt {
+  border-color: #ff6e02;
+}
+/* line 719, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form .btn-row {
+  width: 100%;
+  padding: 21px 0 0;
+}
+/* line 723, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .sample-form .button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+/* line 728, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form .btn-form {
+  float: left;
+  height: 40px;
+  margin: 0 22px 0 2px;
+  padding: 0 28px;
+  border: 0;
+  color: #fff;
+  overflow: visible;
+  cursor: pointer;
+  position: relative;
+}
+/* line 738, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form .btn-row a {
+  float: left;
+  margin: 10px 0 0;
+  font-size: 16px;
+  line-height: 18px;
+}
+/* line 743, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form .checky {
+  float: left;
+  vertical-align: middle;
+}
+/* line 746, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome .login-form .check-label {
+  font-size: 14px;
+  margin-left: 7px;
+}
+/* line 751, ../../app/assets/stylesheets/welcome_home.css.scss */
+#welcome #flash-bucket {
+  clear: both;
+  display: block;
+  margin: 0px 0px -25px 11px;
+  position: relative;
+  top: 6px;
+}
+
+
+/* Nav CSS */
+#Nav{
+	height: 163px;
+	background: transparent url(../img2012/VIPRE-tabs.png) 0px -163px no-repeat;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	width:940px;
+}
+
+#NavWhyVipre{
+	height: 163px;
+	background: transparent url(../img2012/WhyVIPRE-tabs.png) 0px -163px no-repeat;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	width:940px;
+}
+
+#Nav li, #NavWhyVipre li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	width: 186px;
+}
+
+#Nav li, #Nav a, #NavWhyVipre li, #NavWhyVipre a{
+	height: 164px;
+	display: block;
+}
+
+#Overview, #OverviewWV{
+	left: 0px;
+	top: 2px;
+}
+
+#Features, #FeaturesWV{
+	left: 188px;
+}
+
+#Screenshots, #ScreenshotsWV{
+	left: 377px;
+}
+
+#Details, #DetailsWV{
+	left: 565px;
+}
+
+#FAQs, #FAQsWV{
+	left: 753px;
+}
+
+#Overview a:hover, #Overview a.active{
+	background: transparent url(../img2012/VIPRE-tabs.png) 2px 1px no-repeat;
+}
+
+#Features a:hover, #Features a.active{
+	background: transparent url(../img2012/VIPRE-tabs.png) -188px 1px no-repeat;
+}
+
+#Screenshots a:hover, #Screenshots a.active{
+	background: transparent url(../img2012/VIPRE-tabs.png) -379px 1px no-repeat;
+}
+
+#Details a:hover, #Details a.active{
+	background: transparent url(../img2012/VIPRE-tabs.png) -567px 1px no-repeat;
+}
+
+#FAQs a:hover, #FAQs a.active{
+	background: transparent url(../img2012/VIPRE-tabs.png) -754px 1px no-repeat;
+}
+
+#OverviewWV a:hover, #OverviewWV a.active{
+	background: transparent url(../img2012/WhyVIPRE-tabs.png) 0px 0px no-repeat;
+}
+
+#FeaturesWV a:hover, #FeaturesWV a.active{
+	background: transparent url(../img2012/WhyVIPRE-tabs.png) -188px 2px no-repeat;
+}
+
+#ScreenshotsWV a:hover, #ScreenshotsWV a.active{
+	background: transparent url(../img2012/WhyVIPRE-tabs.png) -377px 2px no-repeat;
+}
+
+#DetailsWV a:hover, #DetailsWV a.active{
+	background: transparent url(../img2012/WhyVIPRE-tabs.png) -565px 2px no-repeat;
+}
+
+#FAQsWV a:hover, #FAQsWV a.active{
+	background: transparent url(../img2012/WhyVIPRE-tabs.png) -753px 2px no-repeat;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    #v-head{
+        font-size: 15px !important;
+    }
+}
+
+@-moz-document url-prefix() {
+    #v-head{
+        font-size: 15px !important;
+    }
+}
+
+.accordionButton{
+	cursor: pointer;
+}
+
+#welcome .btn.orange, #welcome .btn.orange:hover, #welcome .btn.orange:hover {
+  width: 165px;
+  color: #fff;
+  font: 19px/36px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 0 34px;
+  height: 34px;
+  background: #ff9201;
+  background: -moz-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffb400), color-stop(28%, #ffa101), color-stop(79%, #ff7302), color-stop(90%, #ff6d02), color-stop(100%, #ff6d00));
+  background: -webkit-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -o-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -ms-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  -pie-background: linear-gradient(#ffb400, #ff6d00);
+  filter: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+
+#welcome .btn.orange:hover, #welcome .btn.orange:hover {
+  background: #ff6202;
+  text-decoration: none;
+  background: -moz-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff8a00), color-stop(100%, #ff6202));
+  background: -webkit-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: -o-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: -ms-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  -pie-background: linear-gradient(#ff8a00, #ff6202);
+  filter: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+
+#td .btn.green {
+  height: 37px;
+  padding-top: 3px;
+  background: #aded00;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aded00), color-stop(87%, #2fa000), color-stop(100%, #249900));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aded00', endColorstr='#249900',GradientType=0 );
+  /* IE6-9 */
+  text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.6);
+}
+/* line 14, ../../app/assets/stylesheets/welcome_home.css.scss */
+#td .btn.green:hover {
+  height: 37px;
+  padding-top: 3px;
+  background: #99d000;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #99d000), color-stop(87%, #2a8c00), color-stop(100%, #1f8600));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99d000', endColorstr='#1f8600',GradientType=0 );
+  /* IE6-9 */
+}
+
+#td .btn.green, #td .btn:hover.green, #td .btn:hover.green {
+  background: #aded00;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aded00), color-stop(87%, #2fa000), color-stop(100%, #249900));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #aded00 0%, #2fa000 87%, #249900 100%);
+  -pie-background: linear-gradient(#aded00, #249900);
+  /* W3C */
+  filter: none;
+  /* IE6-9 */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+/* line 14, ../../app/assets/stylesheets/welcome_home.css.scss */
+#td .btn.green:hover, #td .btn:hover.green:hover, #td .btn:hover.green:hover{
+  background: #99d000;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #99d000), color-stop(87%, #2a8c00), color-stop(100%, #1f8600));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #99d000 0%, #2a8c00 87%, #1f8600 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#99d000, #1f8600);
+  filter: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  position: relative;
+  behavior: url("https://www.vipreantivirus.cz/assets/pie/PIE.htc");
+}
+
+#td .btn.orange, #td .btn.orange:hover, #td .btn.orange:hover {
+  width: 165px;
+  color: #fff;
+  font: 18px/41px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 0 28px;
+  height: 40px;
+  background: #ff9201;
+  background: -moz-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffb400), color-stop(28%, #ffa101), color-stop(79%, #ff7302), color-stop(90%, #ff6d02), color-stop(100%, #ff6d00));
+  background: -webkit-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -o-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: -ms-linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  background: linear-gradient(top, #ffb400 0%, #ffa101 28%, #ff7302 79%, #ff6d02 90%, #ff6d00 100%);
+  filter: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#td .btn.orange:hover, #td .btn.orange:hover {
+  background: #ff6202;
+  text-decoration: none;
+  background: -moz-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff8a00), color-stop(100%, #ff6202));
+  background: -webkit-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: -o-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: -ms-linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+  background: linear-gradient(top, #ff8a00 0%, #ff6202 100%);
+}
+
+#td .btn.gray, #td .btn.gray:hover, #td .btn.gray:hover {
+  width: 165px;
+  color: #fff;
+  font: 18px/41px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 0 28px;
+  height: 40px;
+  background: #858585;
+  background: -moz-linear-gradient(top, #858585 0%, #8c8c8c 28%, #7d7d7d 79%, #707070 90%, #696969 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #858585), color-stop(28%, #8c8c8c), color-stop(79%, #7d7d7d), color-stop(90%, #707070), color-stop(100%, #696969));
+  background: -webkit-linear-gradient(top, #858585 0%, #8c8c8c 28%, #7d7d7d 79%, #707070 90%, #696969 100%);
+  background: -o-linear-gradient(top, #858585 0%, #8c8c8c 28%, #7d7d7d 79%, #707070 90%, #696969 100%);
+  background: -ms-linear-gradient(top, #858585 0%, #8c8c8c 28%, #7d7d7d 79%, #707070 90%, #696969 100%);
+  background: linear-gradient(top, #858585 0%, #8c8c8c 28%, #7d7d7d 79%, #707070 90%, #696969 100%);
+  filter: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#td .btn.gray:hover, #td .btn.gray:hover {
+  background: #656565;
+  text-decoration: none;
+  background: -moz-linear-gradient(top, #656565 0%, #5f5e5e 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #656565), color-stop(100%, #5f5e5e));
+  background: -webkit-linear-gradient(top, #656565 0%, #5f5e5e 100%);
+  background: -o-linear-gradient(top, #656565 0%, #5f5e5e 100%);
+  background: -ms-linear-gradient(top, #656565 0%, #5f5e5e 100%);
+  background: linear-gradient(top, #656565 0%, #5f5e5e 100%);
+}
+
+#welcome #headerWrapper{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	background-color: #eee;
+	height: 110px;
+	border-bottom: solid 1px #d9d9d9;
+}
+
+#welcome #headerColorBar {
+	background:#1a74b0;
+	height:8px;
+	width:100%;
+}
+
+#welcome #headerWrapperContainer{
+	width:940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+body.why-vipre#welcome #headerWrapper, body.products#welcome #headerWrapper{
+	margin-top: -88px;
+}
+
+body.mobile#welcome #headerWrapper{
+	margin-top: -128px;
+}
+
+body.buy-now#welcome #headerWrapper{
+	margin-top: -125px;
+}
+
+body.definitions#welcome #headerWrapper{
+	margin-top: -125px;
+}
+
+.bShadow{
+	-webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.20);
+	-moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.20);
+	box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.20);
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=180, Color='#000000');
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=180, Color='#000000')";
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+#welcome .btn.orange.chart{
+  font: 19px/36px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 0 5px;
+  height: 34px;
+}
+
+#welcome .btn.green.chart{
+  font: 19px/36px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 0 15px;
+  height: 34px;
+}
+
+#welcome .btn.gray.chart{
+  font: 19px/36px "myriad pro","Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 0 5px;
+  height: 34px;
+}
+
+#divChartTable{
+	width: 860px;
+	width: 890px\9;
+	height: 350px;
+	margin: 0 auto;
+}
+
+#divChartTableNew{
+	width: 800px;
+	width: 800px\9;
+	height: 350px;
+	margin: 0 auto;
+}
+
+.divChartTab{
+	background: #5bab4d;
+	padding: 3px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#divChartHeader{
+	background: #077abd;
+	display: table-row;
+	height: 20px;
+}
+
+#divChartHeaderTop{
+	background: url(../img2012/features_chart/Chart-Header-Top.png) no-repeat;
+	width: 800px;
+	height: 46px;
+}
+
+#divChartHeaderPrice{
+	background: url(../img2012/features_chart/Chart-Header-Price.png) no-repeat;
+	height: 36px;
+	width: 800px;
+	padding: 0;
+}
+
+#divChartHeaderPrice .AVPrice{
+	background: url(../img2012/features_chart/Chart-Header-Price.png) no-repeat -330px;
+	color: white;
+	padding: 0;
+	padding-left: 17px;
+	text-align: center;
+}
+
+#divChartHeaderPrice .VISPrice{
+	background: url(../img2012/features_chart/Chart-Header-Price.png) no-repeat -350px;
+	color: white;
+	padding: 0;
+	padding-left: 75px;
+}
+
+#divChartHeaderCTA{
+	color: white;
+	background: url(../img2012/features_chart/Chart-Header-CTA.png) no-repeat;
+	height: 76px;
+	width: 800px;
+}
+
+#divChartHeaderCTA .AVCTA{
+	background: url(../img2012/features_chart/Chart-Header-CTA.png) no-repeat -325px;
+	color: white;
+	padding: 0;
+	padding-left: 20px;
+	text-align: center;
+}
+
+#divChartHeaderCTA .VISCTA{
+	background: url(../img2012/features_chart/Chart-Header-CTA.png) no-repeat -350px;
+	color: white;
+	padding: 0;
+	padding-left: 35px;
+}
+
+#divChartHeaderBottom{
+	background: url(../img2012/features_chart/Chart-Header-Bottom.png) no-repeat;
+	height: 29px;
+	width: 800px;
+}
+
+#divChartHeaderFeatures{
+	width: 250px;
+	color: white;
+	font-weight: bold;
+	font-size: 1.8em;
+	padding-left: 20px;
+	border-right-color: white;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+#divChartHeaderVAV{
+	width: 200px;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+	border-right-color: white;
+	border-right-width: 1px;
+	border-right-style: solid;
+}
+
+#divChartHeaderVIS{
+	width: 200px;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.divChartRowFeat{
+	padding-left: 20px;
+	/*font-weight: bold;*/
+	font-size: 1.2em;
+	border-bottom-color: white;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-right-color: white;
+	border-right-width: 1px;
+	border-right-style: solid;
+	vertical-align: middle;
+}
+
+.divChartRowAV{
+	text-align: center;
+	background: #d2e7f4;
+	border-bottom-color: white;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-right-color: white;
+	border-right-width: 1px;
+	border-right-style: solid;
+	vertical-align: middle;
+}
+
+.divChartRowIS{
+	text-align: center;
+	background: #d2e7f4;
+	border-bottom-color: white;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	vertical-align: middle;
+}
+
+.divChartRowAVAlt{
+	text-align: center;
+	background: #bddef3;
+	border-bottom-color: white;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-right-color: white;
+	border-right-width: 1px;
+	border-right-style: solid;
+	vertical-align: middle;
+}
+
+.divChartRowISAlt{
+	text-align: center;
+	background: #bddef3;
+	border-bottom-color: white;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	vertical-align: middle;
+}
+
+.divChartRow{
+	height: 15px;
+	background: #FFF;
+}
+
+.divChartRowAlt{
+	background: #d2e7f4;
+}
+
+.divChartRowFeatNew{
+	padding-left: 20px;
+	/*font-weight: bold;*/
+	font-size: 1.2em;
+	vertical-align: middle;
+}
+
+.divChartRowAVNew{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.divChartRowISNew{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.divChartRowAVAltNew{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.divChartRowISAltNew{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.divChartRowNew{
+	height: 15px;
+}
+
+.divChartRowSep{
+	background: url(../img2012/features_chart/Chart-Sep.png) no-repeat;
+	padding: 0;
+	width: 800px;
+	height: 15px;
+}
+
+.divChartRowSep td {
+	padding: 0;
+}
+
+#divChartVAVBtn{
+	padding-top: 5px;
+	padding-bottom: 4px;
+	text-align: center;
+}
+
+#divChartVISBtn{
+	padding-top: 5px;
+	padding-bottom: 4px;
+	text-align: center;
+}
+
+.NewFeatureText {
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* Tool tip CSS */
+.tip {
+	width: 235px;
+	padding-top: 37px;
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	z-index: 999999;
+	background: transparent url(tipTop.png) no-repeat top;
+}
+
+.tipMid {
+	background: transparent url(tipMid.png) repeat-y; 
+	padding: 0 25px 20px 30px;
+}
+
+.tipBtm {
+	background: transparent url(tipBtm.png) no-repeat bottom; 
+	height: 32px;
+}
+
+.tTip {
+	text-decoration: underline;
+	cursor: pointer;
+	color: #0079c1;
+}
+
+.LicenseChartShadow {
+	width: 321px;
+	height: 189px;
+	background: url(../img2012/license_chart/Chart_Bg_Shadow.png) no-repeat;
+	margin-left: 30px;
+}
+
+.LicenseChartNoShadow {
+	width: 321px;
+	height: 189px;
+	background: url(../img2012/license_chart/Chart_Bg_No_Shadow.png) no-repeat;
+	margin-left: 30px;
+}
+
+.LicenseChartOption {
+	padding-left: 15px;
+}
+
+.LicenseChartOption span {
+	cursor: default;
+}
+
+.LicenseChartSep {
+	margin-top: -7px;
+}
+
+.LicenseChartPriceDiv {
+	float: left;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.LicenseChartPriceText {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.LicenseChartBuyButton {
+	float: right;
+	padding-right: 30px;
+	padding-top: 5px;
+}
+
+.SavingsBar {
+	background: url(../img2012/license_chart/SaveImg.png) no-repeat;
+	width: 103px;
+	height: 29px;
+	float: right;
+	margin-right: -200px;
+}
+
+.SavingsBarVIS {
+	margin-top: -32px;
+}
+
+.SavingsBarVAV {
+	margin-top: -32px;
+}
+
+.SavingsText {
+	position: absolute;
+	font-size: 16px;
+	padding-left: 20px;
+	margin-top: 4px;
+	color: #fff;
+}
+
+:root .SavingsText { margin-top: 5px \0; }
+:root .SavingsBarVIS { margin-top: -33px \0; }
+:root .SavingsBarVAV { margin-top: -33px \0; }
+
+@-moz-document url-prefix() {
+	#divChartTable {
+		width: 880px;
+	}
+	
+    #divChartTableNew {
+        width: 800px;
+    }
+	
+	.divChartTab{
+		padding-bottom: 8px;
+	}
+}
